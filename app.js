@@ -1,15 +1,15 @@
-const DATA_SHEET_ID = "1a0PvYBt1kuN7_51Bec2J55qtSQZRsF4wLnk0iI73Tvc";
+const DATA_SHEET_ID = "1-R1Af_PtLPTTiXMHBqvgr3QmbTzWcfeq7wFhvhj_ufM";
 
 const SHEET_URLS = {
   students:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR523fuZeSW1NX31l-vtFiNyxz6pOroIDsoj_LZUaaV6CSoucBAv3DPTHZxlU9wV5_0yiptPjc1NKK4/pub?gid=1626540029&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4aN-ysvd2yqb5YB7a2xDbOoOsta6HSF3oC9XcoQtqoPhQJoPEvWcQ2kO9E5-EDsuYvRyqyUprd8Wr/pub?gid=1626540029&single=true&output=csv",
   standards:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR523fuZeSW1NX31l-vtFiNyxz6pOroIDsoj_LZUaaV6CSoucBAv3DPTHZxlU9wV5_0yiptPjc1NKK4/pub?gid=0&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4aN-ysvd2yqb5YB7a2xDbOoOsta6HSF3oC9XcoQtqoPhQJoPEvWcQ2kO9E5-EDsuYvRyqyUprd8Wr/pub?gid=0&single=true&output=csv",
   skills:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR523fuZeSW1NX31l-vtFiNyxz6pOroIDsoj_LZUaaV6CSoucBAv3DPTHZxlU9wV5_0yiptPjc1NKK4/pub?gid=429299684&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4aN-ysvd2yqb5YB7a2xDbOoOsta6HSF3oC9XcoQtqoPhQJoPEvWcQ2kO9E5-EDsuYvRyqyUprd8Wr/pub?gid=429299684&single=true&output=csv",
 };
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbymIj5wAmdjayHVsEL_JElXPTGjLZOq2f0v250terseKPgy745hf_u8lEZPqdL575-IOQ/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwzMKWPhuelErWw47D6YL3EhQILSQf526dEY_AC6TKhOjiDJKfYioqn8uSmJupoTcs6/exec";
 const STORAGE_KEY = "perekodan-pbd-records";
 let records = [];
 let currentSelections = {};
